@@ -4,9 +4,6 @@ import subprocess
 import sys
 import os
 
-root.geometry("1000x700")
-
-
 # Path to the privileged helper script
 HELPER = os.path.join(os.path.dirname(__file__), "telnet_scan_helper.py")
 
